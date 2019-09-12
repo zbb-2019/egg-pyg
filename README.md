@@ -34,9 +34,10 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
->>>>>>> 项目初始化+完成获取首页轮播图接口
-<<<<<<< HEAD
+项目初始化+完成获取首页轮播图接口
+
 
 git remote add pyg git remote add pb git://github.com/paulboone/ticgit.git
-=======
->>>>>>> 4a1ef409c561a9db561dd84168fe27bb49fd60db
+git pull pyg master --allow-unrelated-histories
+git push pyg master
+
