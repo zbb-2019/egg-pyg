@@ -9,11 +9,8 @@ module.exports = app => {
   router.get('/api/v1/lunbotu', controller.lunbotu.index);
   router.get('/api/v1/newslist', controller.newslist.index);
   router.get('/api/v1/news/:id', controller.newslist.show);
-<<<<<<< HEAD
   router.get('/api/v1/news/comments/:userid/:newsid/:pages/:type', controller.comments.show);
   router.post('/api/v1/news/comments', controller.comments.create);
-=======
->>>>>>> 4a1ef409c561a9db561dd84168fe27bb49fd60db
   router.get('/api/v1/classifications', controller.classifications.index);
   router.get('/api/v1/sharepictures/:clazzid', controller.sharepictures.showbyclazz);
   router.get('/api/v1/sharepictureinfo/:id', controller.sharepictureinfo.show);

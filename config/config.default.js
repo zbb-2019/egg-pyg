@@ -38,15 +38,9 @@ module.exports = appInfo => {
     // 单数据库信息配置
     client: {
       host: '127.0.0.1',
-<<<<<<< HEAD
       port: '3306',
       user: 'root',
       password: 'mypassword',
-=======
-      port: '3307',
-      user: 'root',
-      password: 'Zbb@123456',
->>>>>>> 4a1ef409c561a9db561dd84168fe27bb49fd60db
       database: 'egg-pyg',
     },
     // 是否加载到 app 上，默认开启
