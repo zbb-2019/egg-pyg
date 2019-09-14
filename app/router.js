@@ -15,4 +15,5 @@ module.exports = app => {
   router.get('/api/v1/sharepictures/:clazzid', controller.sharepictures.showbyclazz);
   router.get('/api/v1/sharepictureinfo/:id', controller.sharepictureinfo.show);
   router.get('/api/v1/sharepictureinfo2/:id', controller.sharepictureinfo.show2);
+  router.get('/api/v1/goods/:pages', controller.goods.pages);
 };
