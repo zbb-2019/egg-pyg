@@ -13,6 +13,11 @@ class GoodsController extends Controller {
     });
     ctx.body = results;
   }
+  async show() {
+    const { ctx } = this;
+    const results = await this.app.mysql.get('goods', { id: `${ctx.params.id}` });
+    ctx.body = results;
+  }
 }
 
 module.exports = GoodsController;
