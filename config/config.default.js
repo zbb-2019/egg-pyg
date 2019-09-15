@@ -37,10 +37,10 @@ module.exports = appInfo => {
   config.mysql = {
     // 单数据库信息配置
     client: {
-      host: '127.0.0.1',
-      port: '3307',
+      host: 'localhost',
+      port: '3306',
       user: 'root',
-      password: 'Zbb@123456',
+      password: 'mysqladmin',
       database: 'egg-pyg',
     },
     // 是否加载到 app 上，默认开启
